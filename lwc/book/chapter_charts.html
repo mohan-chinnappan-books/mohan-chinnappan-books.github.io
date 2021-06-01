@@ -166,6 +166,12 @@
                 <div id="content" class="content">
                     <main>
                         <h2 id="charting-data"><a class="header" href="#charting-data">Charting data</a></h2>
+<h3 id="playing-with-html-canvas-api"><a class="header" href="#playing-with-html-canvas-api">Playing with HTML Canvas API</a></h3>
+<p><img src="img/c5/lwc-charts-1.png" alt="LWC chart with canvas" /></p>
+<ul>
+<li><a href="https://webcomponents.dev/edit/HGxkVhtEqT8EpNfybBbH/src/child.js">Playground: Pie Chart the stock positions</a></li>
+</ul>
+<h2 id="links"><a class="header" href="#links">Links</a></h2>
 <ul>
 <li><a href="https://salesforcelabs.github.io/LightningWebChartJS/docs/api/chart.html">Lightning Web Chart.js Component</a></li>
 </ul>
@@ -207,6 +213,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
