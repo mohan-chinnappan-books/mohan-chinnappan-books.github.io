@@ -973,7 +973,12 @@ export default class ApexWireGetRecordsOpportunity extends LightningElement {
 <h3 id="playing-with-html-canvas-api"><a class="header" href="#playing-with-html-canvas-api">Playing with HTML Canvas API</a></h3>
 <p><img src="img/c5/lwc-charts-1.png" alt="LWC chart with canvas" /></p>
 <ul>
-<li><a href="https://webcomponents.dev/edit/HGxkVhtEqT8EpNfybBbH/src/child.js">Playground: Pie Chart the stock positions</a></li>
+<li>
+<p><a href="https://webcomponents.dev/edit/HGxkVhtEqT8EpNfybBbH/src/child.js">Playground: Pie Chart the stock positions</a></p>
+</li>
+<li>
+<p><a href="https://webcomponents.dev/edit/PZdfXHuUH8sq8ItGTf9t/src/piechart.html">Pie Chart component</a></p>
+</li>
 </ul>
 <h2 id="links"><a class="header" href="#links">Links</a></h2>
 <ul>
@@ -1485,6 +1490,21 @@ export default class App extends LightningElement {
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
