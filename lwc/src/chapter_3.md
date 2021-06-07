@@ -197,12 +197,15 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 
 ## Using Modals in LWC
 
-- [Component to show the Financial Accounts in FSC](https://github.com/mohan-chinnappan-n/FSCConfigUI/tree/master/FA)
-- [Using HTML table, onmouseout, mouseover](https://webcomponents.dev/edit/KN7WTWkxd8pnOfUL8KjQ/src/app.js)
+- [Playground - Component to show the Financial Accounts in FSC](https://github.com/mohan-chinnappan-n/FSCConfigUI/tree/master/FA)
+- [Playground - Using HTML table, onmouseout, mouseover](https://webcomponents.dev/edit/KN7WTWkxd8pnOfUL8KjQ/src/app.js)
 
-- [Accordion Sample](https://webcomponents.dev/edit/XDq1O4AcIXIhe3ucqSCF/src/app.js)
+- [Playground - Accordion Sample](https://webcomponents.dev/edit/XDq1O4AcIXIhe3ucqSCF/src/app.js)
+    - ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/cli-dx/master/lwc/img/lwc-mouse-events-1.gif)
 
-- [Using HTML table, onmouseout, mouseover and Accordion](https://webcomponents.dev/edit/vyTOq6OxDHjnqJxyocUr/src/app.js)
+-  [Playground - mouse over with custom accordion](https://webcomponents.dev/edit/HtgzPSydIm9C6XaRZiCp/src/app.js)
+    - ![Demo](https://raw.githubusercontent.com/mohan-chinnappan-n/cli-dx/master/lwc/img/lwc-mouse-events-2.gif)
+
 
 ### Custom Events
 - [Custom Events](https://webcomponents.dev/edit/Nt7TcB5zDGUq0B85CUKH/src/app.js)
