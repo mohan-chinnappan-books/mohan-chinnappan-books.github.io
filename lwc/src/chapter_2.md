@@ -1,5 +1,7 @@
 # LWC vs Aura
 
+![compare](https://lh5.googleusercontent.com/proxy/wu5PLlVoRpgHMWz3tMImQqZvcSfDi9yLv_U0VcXS0ANV3j9egb3wbWjO1MO1Mt1FUOkU8f4g0k0vR-C7zRIH7ygVYCZbakKCjylzNV9qrz9TYCd_L2CHE_pYoK6S_vAKId2NiEadxzNcMNjXYY4-9T4jQvy1Cg7EWyKqfA4iAIknM3xSz8hCpk1vrL-Zk6DvgvsGCjlMIYwJEdlDWoaUR6HEb5eXbrnDHjyY-HGZIES8GHnYJi6Zi52XTxHFUnBNljxlggM=s1920-w1920-h1080-p-k-no-nd-mv)
+
 - Aura framework needed to implement a proprietary component model, proprietary language extensions, and proprietary modules.
 - LWC uses web stack features implemented natively by browsers, which means that LWC apps are substantially more performant.
 -  LWC supports

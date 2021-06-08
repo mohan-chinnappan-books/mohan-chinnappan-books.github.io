@@ -1,4 +1,7 @@
 # 7. Lightning Data Service
+
+![Fish](https://lh5.googleusercontent.com/proxy/WJw71U8NbKDZAmeqDruztTrqWD-xhAejU4Kjgak4PfjoahwOGD3qxKBdZ-sxCPn51ovSwJbroDyk7bobkZYzmNNdDpeTEjAabt8xYJCEpF9EMdeYSSunT17ZzJyBDOHQ0KE49gf8JCk5Ox6x-3ILW2Noa3O2BBzTpAjxB32iaWzyW6Fw3sZEFpPcbxAACKZ3WE3nquE6qISydR3xg0-PX-L9KChPpIPmlE2Jp1C17wGXCw=s1920-w1920-h1080-p-k-no-nd-mv)
+
 - Records loaded in Lightning Data Service (LDS) are cached and **shared across components**. 
 - If a page is composed of components showing the same record, all components **show the same version of the record**. 
 - Components accessing the same record see significant performance improvements, because a record is **loaded once**, no matter how many components are using it.

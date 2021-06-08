@@ -1,5 +1,7 @@
 # 8. Security with Lightning Locker
 
+![farm coconut](https://lh3.googleusercontent.com/proxy/XBDGpQFse1mBHb37rhotlDeObCiUdYEvgu470XKaBaW9IPDl8QIz3pBiweM2eI6VvDMWvS3HZE89mFb0so2xsQBQBrVWIviEIbZs_2tN4hou0GF1qanh_HH8wcX4uVVbnoJ_HeD-HMCkeA_ZOJIiQI36df9MbUAxc2uZrOApP9P0VxxUpDUZmnvT4bIVfdJsEKBVDss0-t04hGROSh4KFACJmdghg8P5xE0tWVffF-JrMjMjiKseyQbGEw=s1920-w1920-h1080-fcrop64=1,000023d6fffffe04-k-no-nd-mv)
+
 - Lightning Locker provides:
     - component isolation and security that allows code from many sources to execute and interact using safe, standard APIs and event mechanisms. 
     

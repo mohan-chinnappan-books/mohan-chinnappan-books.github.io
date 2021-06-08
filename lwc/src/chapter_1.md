@@ -1,5 +1,7 @@
 # 1. Introduction to Web Components
 
+![Flowers](https://lh6.googleusercontent.com/proxy/LnKoDEEcgz8CyuvXOlyfFp9tL2B9t61GbaGVDecM3VWOChXDrzGEUaGVuBx2tGZoVuIbplzt8kfDmEBj4KfuNhXZAbG70t_H6YBovtH3raCnB4IJDepwYCH6U0Iyc2Lx4AMIClvVQvtbBCBHr5ky9Y9dH7JXBbC3BUryPWWB4Jh8x9LhPaC6fFEX89-0Or-2XSBnDADPwAgOanLPQ-zj4g=s1920-w1920-h1080-p-k-no-nd-mv)
+
 ## What is  Web Components ?
 
 ![lwc-1](img/c1/lwc-1.png)
@@ -81,6 +83,8 @@
 - Each LWC has a shadow DOM tree attached
 
 ## LWC offers
+![nice world](https://lh5.googleusercontent.com/proxy/8vptWyDBwmB3cEHugibR8UdQw1fcfS_WOSDRqKvX0qBboXptrqPkKOMqfmupQmfLEO4yfUqRMUoRP_v4JjH1jD9YRkMmh_3BfO27JxK97QvpjjDvA6QCPsXCvk2oizjwklIZwzRYYwiOmTGHKt3-6ZIokw25QI3g1jaC_5ffrL-gQjm5PCZ6kVg3sXQzBSigt9vruJqpaeYMC37S1Y20H706aMDKOKbqJn7eWe7m3iK_7cN1Cfj0Dj6kG3dPz4w=s1920-w1920-h1080-p-k-no-nd-mv)
+
 
 ![lwc offers](img/c1/lwc-2.png)
 

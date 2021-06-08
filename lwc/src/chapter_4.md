@@ -1,5 +1,7 @@
 # 4. Decorators
 
+![water falls](https://lh3.googleusercontent.com/proxy/eOHv5X1Nd1J-w-OpN9HK6UqhZnt0ZStwYJ3dcW0cmpzQvle9LzU6IOSNUK7LI9mT8-Lcvk1Ml1Jwz_ZJMCwouufGIfAKS-wAGp10osliJzT414QBoKrj7DAcq0qdWu3FgvNlj2FyEd2sCAQcWX3wSI2V7u_Vgb5CKG3-6heknxIW-LgfWowBJrSJUn7Fce3MgRZbOZ98qENcebBYzQLI1YxLkZa5CaSLudphl0FJleNkxXCCXA9yPUpQVYDdx_DyxJzy=s1920-w1920-h1080-fcrop64=1,00001999fffff3c7-k-no-nd-mv)
+
 - A decorator is simply a way of wrapping a function/object with another function/object to extend its existing capabilities 
 - It can be used to enhance the behavior of an object without requiring the author to reopen its class.
 - Provides a flexible alternative to sub-classing for extending functionality.

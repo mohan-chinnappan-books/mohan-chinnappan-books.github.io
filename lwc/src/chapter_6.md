@@ -1,5 +1,6 @@
 # 6. Events
 
+![bridge](https://lh6.googleusercontent.com/proxy/HgT6AuEGAc6MsveoKBhmvSSXv_EgLUghitzqqwFecpZLI4UlhFpHoN1bibFYjfuNlxyGCMURfZRl-opnVRMwfam33PTE71gNDvORtICpLdOdlNjAi9sxnKG4Cc8sCLBEXzpioyIbbeQDaFa5Nok-T_Gm0M8pGpMhCL67kRyTcbVUuiGONHsGFa7rflCmWOos1OQbKnDHcxkOmsZkFVs_tFQcf4TgZdRD1Y4OnFHz2XPoOEUb0UxSOiQzDBM26elxFvUMg4wS_mMVC8sVaQ=s1920-w1920-h1080-p-k-no-nd-mv)
 
 ```html
 <!-- paginator.html -->
