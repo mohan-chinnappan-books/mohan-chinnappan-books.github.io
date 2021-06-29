@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Multi-Factor Authentication</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://mohan-chinnappan-n2.github.io/2020/cust-ele/css/codelab-elements.css">
+  <link rel="icon" type="image/x-icon" href="https://mohan-chinnappan-n2.github.io/favicon.ico">
+  <link rel="stylesheet" href="https://mohan-chinnappan-n2.github.io/2020/cust-ele/css/app.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.js"></script>
+</head>
+<body>
+<google-codelab id="Multi-Factor Authentication" title="Multi-Factor Authentication (MFA)" environment="web" >
+
+<google-codelab-step label='MFA'>
+<div id='s0-md' class='md' data-trim='false'>
+  - MFA is a secure authentication method that requires users to prove their identity by supplying **two or more pieces of evidence (or “factors”)** when they log in.
+  - One factor is something the **user knows**, such as their username and password. Other factors are verification methods that the user has in their **possession**, such as an **authenticator app or security key**. 
+
+  
+  ![MFA ](https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/identity_login/identity_login_2fa/images/0c709899654707ee7b79f3d569dde7d7_identity-2-fa-know-and-have.png)
+  - By tying user access to **multiple types of factors**, MFA makes it much harder for common threats like **phishing attacks and account takeovers** to succeed.
+
+  - Salesforce as your partner in **protecting your customer data**, we're announcing that, beginning **February 1, 2022**, Salesforce will begin requiring customers to enable MFA **in order to access** Salesforce products.
+  - Email, SMS text messages, and phone calls aren’t allowed as MFA verification methods because email credentials are more easily compromised, and text messages and phone calls can be intercepted.
+    - It’s a lot harder for bad actors to get control of an actual mobile device or physical security key than it is to infiltrate an email account or hack a  cell phone number.
+</div>
+
+<img src='img/mfa-oid-1.png'  width='400'/>
+<iframe width="720" height="550.6274414170749" src="https://play.vidyard.com/O3rQLAtVX0Z4lLjdOvVFYQ" allowfullscreen="" title="Video Content" class="image-center" spellcheck="false"></iframe>
+
+</google-codelab-step>
+<google-codelab-step label='SSO'>
+<div id='s1-md' class='md' data-trim='false'>
+  - Does SSO satisfy the MFA requirement?
+    - Yes :  as long as all of your Salesforce products are integrated with SSO, **with MFA enabled on the IdP**, and all users who access a Salesforce product’s user interface do so via SSO. 
+      - Note that you must use a federated SSO solution based on :
+         - Security Assertion Markup Language (**SAML**) or 
+         - **OpenID** Connect standard protocols. 
+          - [How to use Google as OpenID Connect provider for Salesforce?](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/oid/openId-connect.md)
+      - Delegated Authentication does not satisfy the MFA requirement.
+
+
+    - ![MFA - OID](img/mfa-oid-1.gif)
+</div>
+</google-codelab-step>
+<google-codelab-step label=' References'>
+<div id='s6-md' class='md' data-trim='false'>
+- [Secure Your Users' Identity](https://trailhead.salesforce.com/content/learn/modules/identity_login/identity_login_2fa)
+- [Announcement of the Future Requirement to Enable Multi-Factor Authentication (MFA) ](https://help.salesforce.com/articleView?id=000356005&type=1&mode=1)
+- [MFA Quick Guide for Admins](https://www.salesforce.com/content/dam/web/en_us/www/documents/guides/mfa-quick-admin-guide.pdf)
+- [Everything Admins Need to Know About the MFA Requirement](https://admin.salesforce.com/blog/2021/everything-admins-need-to-know-about-the-mfa-requirement)
+- [Stronger security for your Google Account](https://www.google.com/landing/2step/#tab=how-it-works)
+
+## Time-based One-Time Password (TOTP)
+- TOTP is a computer algorithm that generates a one-time password (OTP) which uses the **current time** as a source of uniqueness.
+- Unique numeric passwords are generated with a standardized algorithm that uses the current time as an input. 
+- A code is valid for 30 seconds and then a new one is generated.
+- TOTP authenticator apps can generate codes even if the user’s phone doesn’t have a data or internet connectio
+- [TOTP Wiki](https://en.wikipedia.org/wiki/Time-based_One-Time_Password)
+- [TOTP RFC](https://datatracker.ietf.org/doc/html/rfc6238)
+![TOTP](https://twilio-cms-prod.s3.amazonaws.com/images/totp-diagram_Cw3JZsA.width-1600.png)
+- [ TOTP  - Twilio](https://www.twilio.com/docs/glossary/totp)
+
+## Security Keys
+- Security keys are small physical devices that are easy to use because there’s nothing to install and no codes to enter. 
+- This is a great option if users don’t have a mobile device or if cell phones aren’t allowed on the premises.
+- Security keys make MFA logins fast. A user simply:
+  - 1. Connects their key to the computer
+  - 2. Presses the key’s button to verify their identity
+## SSO and MFA
+- [Use Salesforce MFA for SSO](https://help.salesforce.com/articleView?id=sf.mfa_sso_logins.htm&type=5)
+- [ Single Sign-On vs. MFA: Do You Know The Difference? ](https://fortifiedhealthsecurity.com/blog/single-sign-on-vs-mfa-do-you-know-the-difference/)
+  - Users log in to Salesforce and are prompted to provide a supported MFA verification method to confirm their identity.
+
+
+
+</div>
+</google-codelab-step>
+</google-codelab>
+
+  <script src="https://mohan-chinnappan-n2.github.io/2019/stats/js/md2html.js?v=2"> </script> 
+  <script src="https://mohan-chinnappan-n2.github.io/2020/cust-ele/js/native-shim.js"></script>
+  <script src="https://mohan-chinnappan-n2.github.io/2020/cust-ele/js/custom-elements.min.js"></script>
+  <script src="https://mohan-chinnappan-n2.github.io/2020/cust-ele/js/codelab-elements.js"></script>
+  <script src="https://mohan-chinnappan-n2.github.io/2020/cust-ele/js/prettify.js"></script>
+
+</body>
+</html>

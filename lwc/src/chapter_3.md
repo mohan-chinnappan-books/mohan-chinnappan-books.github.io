@@ -227,6 +227,9 @@ sfdx force:source:deploy -u mohan.chinnappan.n_ea2@gmail.com -p lwc/main/default
 - Playground with pagination
     - [CustomTypes for datatable with Accordion with Pagination](https://webcomponents.dev/edit/y7recJr8e7bLJHmNza8Y/src/app.js)
 
+## Looking at navigator object
+- [Navigator object Playground](https://webcomponents.dev/edit/ngSAOa7s5cvYMSU1H8ZC/src/app.html)
+
 ## How to Create Quick Actions with Lightning Web Components
 - [Create Quick Actions with Lightning Web Components (Generally Available) ](https://help.salesforce.com/articleView?id=release-notes.rn_lwc_quick_actions.htm&type=5&release=232)
 ```xml
